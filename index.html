@@ -1,75 +1,90 @@
-
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Module 3 Solution</title>
+	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" width="device-width,initial-scale=1">
-	<title>RESTAURANT MENU</title>
-	<link rel="stylesheet" href="css/styles.css">
-<style>
-	h1{
-		text-align: center;
-	}
-</style>
-</head>
-<body>
-	<h1>Restaurant Menu</h1>
-		<div class="col-lg-4 col-md-6 col-sm-12">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href=styles2.css>
+  </head>
+  <body>
+	
+		<header class="nav-header">
+		<nav id="header-nav" class="navbar navbar-default">
+		  <div class="container">
+			<div class="navbar-header">
+			  <div class="navbar-brand">
+				<p class="nav-brand">Food, LLC</p>
+			  </div>
+	
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			</div>
+			
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+			   <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+				<li class="text-center">
+				  <a href="#chicken-div"><p class="item">Chicken</p></a>
+				  <hr class="visible-xs">
+				</li>            
+				<li class="text-center beef-item">
+				  <a href="#beef-div"><p class="item">Beef</p></a>
+				  <hr class="visible-xs">
+				</li>
+				<li class="text-center sushi-item">
+				  <a href="#sushi-div"><p class="item">Sushi</p></a>
+				</li>
+			  </ul> 
+			</div>
+		  </div>
+		</nav>
+		  </header>
+	
+		<h1 class="text-center">Our Menu</h1>
+	
+		<div class="row container container-fluid">
+		<div class="col-md-12 col-sm-12 col-xs-12" id="chicken-div">
 			<section>
-				<h2 id="first">Vegetable Salad</h2>
-				<ol>
-					<li>BEETROOT</li>
-					<li>CABBAGE</li>
-					<li>CORN</li>
-					<li>TOMATO</li>
-					<li>POTATO</li>
-					<li>SPRING ONIONS</li>
-					<li>CUCUMBER</li>
-					<li>CARROT</li>
-					<li>RADDISH</li>
-					<li>LETTUCE</li>
-					<li>BROCOLLI</li>
-
-
-				</ol>
+			<div id="chicken">
+				Chicken
+			</div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+			</p>
 			</section>
 		</div>
-		<div class="col-lg-4 col-md-6 col-sm-12">
+		<div class="col-md-12 col-sm-12 col-xs-12" id="beef-div">
 			<section>
-				<h2 id="second">Soups</h2>
-				<ol>
-					<li>TOMATO SOUP</li>
-					<li>MANCHOW SOUP</li>
-					<li>LEMON CORIANDER SOUP</li>
-					<li>SPINACH SOUP</li>
-					<li>HOT AND SOUR SOUP</li>
-					<li>SWEET CORN SOUP</li>
-					<li>VEGETABLE SOUP</li>
-				</ol>
-			</section>
-		</div>	
-		<div class="col-lg-4 col-md-6 col-sm-12">
-			<section>
-				<h2 id="third">APPETIZERS</h2>
-				<ol>
-					<li>HARA BHARA KABAB</li>
-					<li>POTATO LOLLIPOPS</li>
-					<li>HONEY CHILLI POTATO</li>
-					<li>SESMI PANEER</li>
-					<li>POHA FINGERS</li>
-					<li>VEG. MANCHURIAN</li>
-					<li>VEG. CUTLET</li>
-				</ol>
+			<div id="beef">
+				Beef
+			</div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+			</p>
 			</section>
 		</div>
-	  
-
-<div class="col-lg-12 col-md-12 col-sm-12">
-        <p>Github repository for this assignment can be found
-            <a href="https://github.com/rishiraj7102/MOD2-PROJECT" target="_blank">here</a>.
-        </p>
-    </div>
-</div>
-
-</body>
+		<div class="col-md-12 col-sm-12 col-xs-12" id="sushi-div">
+			<section>
+			<div id="sushi">
+				Sushi
+			</div>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+			</p>
+			</section>
+		</div>
+		</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
